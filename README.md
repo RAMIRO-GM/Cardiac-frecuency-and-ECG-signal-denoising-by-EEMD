@@ -2,8 +2,8 @@
 ECG signal denoising using Ensemble Empirical Mode Decomposition and R peak detection (cardiac frequency) using Hilbert Transform.
 
 
--------------------------------------------------------------------------------------------
-***EEMD code was obtain from:
+
+EEMD code was obtain from:
 https://github.com/benpolletta/HHT-Tutorial/blob/master/HuangEMD/eemd.m#L12
 HHT-Tutorial/HuangEMD/eemd.m  (GITHUB)
  References:   
@@ -13,4 +13,4 @@ HHT-Tutorial/HuangEMD/eemd.m  (GITHUB)
 
  code writer: Zhaohua Wu. 
  footnote:S.C.Su 2009/03/04
- -------------------------------------------------------------------------------------------
+
