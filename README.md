@@ -72,3 +72,4 @@ filterorder=4;  %filter order
 filtered_ECG=filter(b,a,reconstruction);
 ```
 ## Images
+![1](https://user-images.githubusercontent.com/39096829/41690596-e78f25bc-74bb-11e8-8c8f-d1ddb0ae33d8.PNG) 
