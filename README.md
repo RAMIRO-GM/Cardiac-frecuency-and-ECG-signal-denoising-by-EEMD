@@ -71,5 +71,6 @@ filterorder=4;  %filter order
 [b,a]=butter(filterorder,[filterorder*fchighpass/Fs,2*fclowpass/Fs]);
 filtered_ECG=filter(b,a,reconstruction);
 ```
-## Images
+## Image
+The image depicts the initial raw physiological signal and the final filtered signal with the respective R peaks (cardiac Frequency).
 ![1](https://user-images.githubusercontent.com/39096829/41690596-e78f25bc-74bb-11e8-8c8f-d1ddb0ae33d8.PNG) 
