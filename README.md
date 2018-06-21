@@ -71,6 +71,10 @@ filterorder=4;  %filter order
 [b,a]=butter(filterorder,[filterorder*fchighpass/Fs,2*fclowpass/Fs]);
 filtered_ECG=filter(b,a,reconstruction);
 ```
+The Hilbert Transform is used to Emphasize the R peaks of the ECG and to have one unique r peak, as it was 
+previously removed the noise and the artifacts.
 ## Image
-The image depicts the initial raw physiological signal and the final filtered signal with the respective R peaks (cardiac Frequency).
+The image depicts the initial raw physiological signal and the final filtered signal with the respective R peaks (cardiac Frequency), including the Hilbert Transform.
 ![1](https://user-images.githubusercontent.com/39096829/41690596-e78f25bc-74bb-11e8-8c8f-d1ddb0ae33d8.PNG) 
+The following image shows the filtered/denoised ECG signal (Without the Hilbert Transform).
+![filter](https://user-images.githubusercontent.com/39096829/41690753-a20da238-74bc-11e8-88e3-b2bbf23feed5.PNG)
