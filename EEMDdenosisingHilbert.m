@@ -1,6 +1,4 @@
-%Centro Universitario de Ciencias Exactas e Ingenierías, December 2017.
 
-%Ramiro Gonzalez Monroy 
 
 %Final Project. Biosignals processing.
 
